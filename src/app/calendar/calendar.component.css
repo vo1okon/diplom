@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+button{
+    background-color: #ffffffb3;
+    border-color: #71531E;   
+}
+table{
+    font-size: 35px;
+    background: #D7BB8Ab3;
+    border: black 1px solid;
+    padding: 0;
+    border-collapse: collapse ;
+    height: 20rem;
+    
+}
+td{
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid lightgrey;
+    padding: 5px;
+}
+.another{
+    background-color: #837254b3;
+}
+.another2{
+    background-color: #AE915Bb3;
+}

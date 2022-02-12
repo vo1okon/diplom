@@ -1,0 +1,28 @@
+
+    <button (click)="table_on()">Таблица</button>
+    <button (click)="calen_on()">Календарь</button>
+    <br>
+    <table [ngStyle]="{display: table_visibility}">
+        <tr class="another">
+                <td>День</td>
+                <td>Занятие</td>
+                <td>Время и место</td>
+            </tr>
+            <tr>
+                <td>Среда</td>
+                <td>Занятие в школе</td>
+                <td>15:30-19:00</td>
+            </tr>
+            <tr class="another2">
+                <td>Пятница</td>
+                <td>Занятие в школе</td>
+                <td>15:30-17:00</td>
+            </tr>
+            <tr>
+                <td>Воскресенье</td>
+                <td>Выездное мероприятие</td>
+                <td>(Время и место выбираются руководством турклуба)</td>
+            </tr>
+        </table>
+
+    <p [ngStyle]="{display: cal_visibility}">здесь должен быть календарь,но я тупой :b</p>

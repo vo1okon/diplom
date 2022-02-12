@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    
+}
+
+button{
+    
+    background-color: #ffffff2d;
+    border-color: #71531E;   
+    background-color: #ffffffb3;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+.menu{
+    display: grid;
+    grid-template-rows: 70px 70px 70px 1fr;
+}
+table{
+    background-color: #ffffffb3 ;
+}
+/* table {
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: #ffffffb3 ;
+} */
+/* td{
+    border: black solid 1px;
+} */
+/* .center{
+    text-align: center;
+    
+    font-weight: 500;
+} */
+.all{
+    background: url("../../assets/bg.png");
+    background-size: 100%;
+    min-height: 100vh;
+    height: 100%;
+}

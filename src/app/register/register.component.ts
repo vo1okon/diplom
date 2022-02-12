@@ -8,12 +8,20 @@ import { UserService } from '../user.service';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService: UserService){}
 
-  ngOnInit(): void {
+  items = [{}];
+  name:string = "";
 
+//   addItem(name: string){
+//     this.userService.addData(name);
+// }
+
+  ngOnInit(){
+    this.items = this.userService.getUsers();
   }
+
   
-  getUsers();
+  
 
 }
